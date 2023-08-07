@@ -1,0 +1,25 @@
+@media (max-width: 575.98px) {
+  .home4-bg2 img {
+    width: 100%;
+  }
+
+  .team-head {
+    display: none;
+  }
+
+  .team-head-2 {
+    display: block;
+  }
+
+  .ab-brand img {
+    width: 78px;
+  }
+
+
+}
+
+@media (min-width: 768px) and (max-width: 1400px) {
+  .team-head {
+    display: block;
+  }
+}

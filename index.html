@@ -1,0 +1,939 @@
+<!-- https://www.sidshospital.com/wp-content/themes/sids -->
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="icon" href="./images/vraj-hospital-logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <title>Vraj Hospital</title>
+    <meta name='robots' content='noindex, nofollow' />
+    <style>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./css/gcs.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/trustindex-google-widget.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="./plugins/sweetalert2/sweetalert2.all.min.js"></script>
+
+</head>
+
+<main>
+    <button class="back-to-top-btn" onclick="scrollToTop()" aria-label="Back to Top">
+        <svg width="24" height="24" viewBox="0 0 24 24">
+            <path
+                d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zM13 18h-2v-6H9l3-5 3 5h-2z" />
+        </svg>
+    </button>
+
+    <body
+        class="home page-template page-template-template-home page-template-template-home-php page page-id-21 wp-custom-logo">
+        <header class="ab-header" id="ab-header">
+            <div class="header-container ">
+                <div class="ab-header-wrapper ">
+                    <a class="ab-brand " href="/index.html">
+                        <img src="./images/vraj-hospital-logo.png" alt="" class="ab-logo">
+                    </a>
+                    <div class="menu-menu-1-container">
+                        <ul id="menu-menu-1" class="ab-nav-menu">
+                            <li id="menu-item-383"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-21 current_page_item menu-item-383">
+                                <a href="/index.html" aria-current="page">Home</a>
+                            </li>
+                            <li id="menu-item-384"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384">
+                                <a href="#about">About</a>
+                            </li>
+                            <li id="menu-item-403"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403">
+                                <a href="#facilities">Facilities</a>
+                            </li>
+                            <li id="menu-item-402"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402">
+                                <a href="#doctor">Team Member</a>
+                            </li>
+                            <li id="menu-item-385"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385">
+                                <a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="menu " onclick="mobile()" aria-label="Main Menu">
+                        <svg width="40" height="50" viewBox="0 0 80 80" class="">
+                            <path class="line line1 "
+                                d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058">
+                            </path>
+                            <path class="line line2 " d="M 20,50 H 80"></path>
+                            <path class="line line3 "
+                                d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="home1">
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            <li class="glide__slide">
+                                <picture>
+                                    <source media="(min-width: 700px)" srcset="">
+                                    <img src="./images/vrajbaneer.png" alt="">
+                                </picture>
+                            </li>
+                            <li class="glide__slide">
+                                <picture>
+                                    <source media="(min-width: 700px)" srcset="">
+                                    <img src="./images/vrajbaneer-2.png " alt="">
+                                </picture>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="glide__bullets" data-glide-el="controls[nav]">
+                        <button class="glide__bullet" data-glide-dir="=0"></button>
+                        <button class="glide__bullet" data-glide-dir="=1"></button>
+                    </div>
+                </div>
+            </section>
+            <section class="home2 my-6">
+                <div class="ab-container three-column">
+                    <div class="home2-item bg-secondary">
+                        <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/opd.webp" alt=""
+                            class="home2-item-bg">
+                        <div class="content">
+                            <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/opd.png" alt="">
+                            <p class="text-heading4 text-bold text-white mt-1">OPD Hours</p>
+                            <p class="text-body text-white">Mon - Sat | 9:00 AM to 8:00 PM</p>
+                        </div>
+                    </div>
+                    <div class="home2-item bg-secondary">
+                        <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/appointment.webp" alt=""
+                            class="home2-item-bg">
+                        <div class="content">
+                            <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/medical-appointment.png"
+                                alt="">
+                            <p class="text-heading4 text-bold text-white mt-1">Appointments</p>
+                            <p class="text-body text-white">Call On : +91 99099 07475</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="home3 my-6" id="about">
+                <div class="ab-container two-column">
+                    <div class="col1">
+                        <img src="./images/about.png" alt="">
+                    </div>
+                    <div class="col2">
+                        <p class="text-heading2 text-bold text-dark">Excellence with Ethics</p>
+                        <p class="text-body mt-2">Our super speciality hospital is dedicated to providing the highest
+                            standard of medical care to
+                            patients through state-of-the-art technology and equipment, expert medical professionals,
+                            and a
+                            commitment to excellence. We offer a wide range of services and treatments, including
+                            advanced
+                            procedures and front line research, all with the goal of improving patient outcomes and
+                            quality
+                            of
+                            life.
+                        </p>
+                        <a href="" class="btn btn-primary mt-2">More About
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="home4 my-6">
+                <div class="ab-container flex-13">
+                    <div class="col2">
+                        <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/bg-features.webp" alt=""
+                            class="home4-bg1">
+                        <div class="three-column">
+                            <div class="home4-item">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/charity.png" alt=""
+                                    loading="lazy">
+                                <p class="mt-2 text-heading4 text-bold color-secondary">Care &Commitment.
+                                </p>
+                                <p class="text-body sp-top" style="--spacer:0.5;">We maintain highest ethical standards
+                                    to
+                                    ensure that the best possible services are provided
+                                    to the patients.
+                                </p>
+                            </div>
+                            <div class="home4-item">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/doctor.png" alt=""
+                                    loading="lazy">
+                                <p class="mt-2 text-heading4 text-bold color-secondary">Eminent Doctors
+                                </p>
+                                <p class="text-body sp-top" style="--spacer:0.5;">Receive top-quality medical treatment
+                                    from
+                                    a distinguished and experienced team of
+                                    specialists.
+                                </p>
+                            </div>
+                            <div class="home4-item">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/nurse (1).png"
+                                    alt="" loading="lazy">
+                                <p class="mt-2 text-heading4 text-bold color-secondary">Well Trained Staff
+                                </p>
+                                <p class="text-body sp-top" style="--spacer:0.5;">A healthcare team that excels in
+                                    multiple
+                                    areas, prioritizes the patient's well-being, and
+                                    operates with high efficiency.
+                                </p>
+                            </div>
+                            <div class="home4-item">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/cardiogram.png"
+                                    alt="" loading="lazy">
+                                <p class="mt-2 text-heading4 text-bold color-secondary">Best Equipments
+                                </p>
+                                <p class="text-body sp-top" style="--spacer:0.5;">Advanced infrastructure and equipment
+                                    all
+                                    under one roof for the accurate medical diagnoses
+                                    &treatment.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col1 pd-flex-2">
+                        <div class="bg-secondary home4-bg2">
+                            <img src="./images/2.jpeg" alt="" class="">
+                        </div>
+                        <p class="text-heading2 text-bold text-white">
+                            Matchless <br>
+                            Services <br>Since 2012
+
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="home5 mt-6 py-4 bg-secondary" id="facilities">
+                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/service-bg.webp" alt=""
+                    class="full-bg">
+                <div class="ab-container">
+                    <div class="text-heading2 text-bold text-white">Our Departments
+                    </div>
+                    <div class="glide2 mt-3">
+                        <div class="glide__track" data-glide-el="track">
+                            <ul class="glide__slides">
+                                <li class="glide__slide">
+                                    <div class="svs-item">
+                                        <img class="svs-item-img"
+                                            src="./images/gynaecology.jpg"
+                                            alt="">
+                                        <a class="content" href="">
+                                            <p class="text-body text-white">Gynaecology</p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="svs-item">
+                                        <img class="svs-item-img"
+                                            src="./images/Dental.png"
+                                            alt="">
+                                        <a class="content" href="">
+                                            <p class="text-body text-white"> Dental </p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="svs-item">
+                                        <img class="svs-item-img"
+                                            src="./images/Physiotherapy.jpg"
+                                            alt="">
+                                        <a class="content" href="">
+                                            <p class="text-body text-white">Physiotherapy </p>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="glide__slide">
+                                    <div class="svs-item">
+                                        <img class="svs-item-img"
+                                            src="./images/dietitian.jpg"
+                                            alt="">
+                                        <a class="content" href="">
+                                            <p class="text-body text-white">Deit </p>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="glide__arrows" data-glide-el="controls">
+                            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/right-arrow.png"
+                                    alt="">
+                            </button>
+                            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/right-arrow.png"
+                                    alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <div class="home10 my-6">
+        <div class="ab-container">
+            <div class="text-heading2 text-bold">
+                Health Checkup Plans</div>
+        </div>
+        <div class="ab-container four-column mt-3">
+            <a href="https://www.sidshospital.com/wp-content/themes/sids/assets/plan.jpg" class="plan-item">
+                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/plan.jpg" alt="">
+            </a>
+            <a href="https://www.sidshospital.com/wp-content/themes/sids/assets/plan.jpg" class="plan-item">
+                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/plan.jpg" alt="">
+            </a>
+            <a href="https://www.sidshospital.com/wp-content/themes/sids/assets/plan.jpg" class="plan-item">
+                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/plan.jpg" alt="">
+            </a>
+            <a href="https://www.sidshospital.com/wp-content/themes/sids/assets/plan.jpg" class="plan-item">
+                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/plan.jpg" alt="">
+            </a>
+        </div>
+    </div> -->
+            <section class="home6 my-6" id="doctor">
+                <div class="ab-container grid-13">
+                    <div class="col1">
+                        <p class="text-heading2 team-head text-dark">
+                            Team of Experts
+                        </p>
+                        <p class="text-body sp-top team-head" style="--spacer:0.5;">A healthcare team that excels in
+                            multiple
+                            areas, prioritizes the patient's well-being, and
+                            operates with high efficiency.
+                        </p>
+                        <p class="text-heading2 team-head-2 text-dark text-center">
+                            Team of Experts
+                        </p>
+                        <p class="text-body  text-center sp-top team-head-2" style="--spacer:0.5;">A healthcare team
+                            that
+                            excels in multiple
+                            areas, prioritizes the patient's well-being, and
+                            operates with high efficiency.
+                        </p>
+                    </div>
+                    <div class="col2">
+                        <div class="glide3">
+                            <div class="glide__track" data-glide-el="track">
+                                <ul class="glide__slides">
+                                    <li class="glide__slide">
+                                        <div class="doc-item pd-flex-15">
+                                            <div class="doc-img">
+                                                <img src="./images/1.jpeg" alt="">
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div class="doc-item pd-flex-15">
+                                            <div class="doc-img">
+                                                <img src="./images/2.jpeg" alt="">
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div class="doc-item pd-flex-15">
+                                            <div class="doc-img">
+                                                <img src="./images/3.jpeg" alt="">
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div class="doc-item pd-flex-15">
+                                            <div class="doc-img">
+                                                <img src="./images/4.jpeg   " alt="">
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                    <li class="glide__slide">
+                                        <div class="doc-item pd-flex-15">
+                                            <div class="doc-img">
+                                                <img src="./images/5.jpeg  " alt="">
+                                            </div>
+
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="glide__arrows" data-glide-el="controls">
+                                <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
+                                    <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/right-arrow.png"
+                                        alt="">
+                                </button>
+                                <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
+                                    <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/right-arrow.png"
+                                        alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="yt-tm">
+            <div class="ab-container">
+                <div class="text-heading2 text-bold">Patients Testimonials
+                </div>
+            </div>
+            <div class="ab-container three-column mt-4">
+                <div class="yt-tm-item">
+                    <lite-youtube videoid="7neOfGwnczM"></lite-youtube>
+                </div>
+                <div class="yt-tm-item">
+                    <lite-youtube videoid="2GZJPFD8eLI"></lite-youtube>
+                </div>
+                <div class="yt-tm-item">
+                    <lite-youtube videoid="d7fF9nIIQx4"></lite-youtube>
+                </div>
+                <div class="yt-tm-item">
+                    <lite-youtube videoid="Va2v3DykT5g"></lite-youtube>
+                </div>
+                <div class="yt-tm-item">
+                    <lite-youtube videoid="9ZN3dl17Frw"></lite-youtube>
+                </div>
+                <div class="yt-tm-item">
+                    <lite-youtube videoid="NvUSBxUEe5Q"></lite-youtube>
+                </div>
+            </div>
+        </section> -->
+            <section class="home7 my-6">
+                <div class="ab-container">
+                    <div class="text-heading2 text-dark mb-2">What our patient says</div>
+                    <div class="google-review">
+                        <div class="ti-widget ti-goog" data-layout-id="5" data-set-id="soft"
+                            data-pid="b5167179c03e50ec942cb" data-pager-autoplay-timeout="6">
+                            <div class="ti-widget-container ti-col-4">
+                                <div class="ti-footer source-Google">
+                                    <div class="ti-rating-text">
+                                        <strong class="ti-rating">Good </strong>
+                                    </div>
+                                    <span class="ti-stars star-lg">
+                                        <span class="ti-star f"></span>
+                                        <span class="ti-star f"></span>
+                                        <span class="ti-star f"></span>
+                                        <span class="ti-star f"></span>
+                                        <span class="ti-star f"></span>
+                                    </span>
+                                    <div class="ti-rating-text">
+                                        <span class="nowrap">
+                                            Based on <strong>1000 reviews</strong>
+                                        </span>
+                                    </div>
+                                    <div class="ti-large-logo">
+                                        <div class="ti-v-center">
+                                            <img class="ti-logo-fb"
+                                                src="https://cdn.trustindex.io/assets/platform/Google/logo.svg"
+                                                width="150" height="25" alt="Google" width="150" height="25" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="ti-reviews-container">
+                                    <div class="ti-controls">
+                                        <div class="ti-next"></div>
+                                        <div class="ti-prev"></div>
+                                    </div>
+                                    <div class="ti-reviews-container-wrapper">
+                                        <div data-empty="0" class="ti-review-item source-Google">
+                                            <div class="ti-inner">
+                                                <div class="ti-review-header">
+                                                    <div class="ti-profile-img">
+                                                        <img src="./images/review-1.png" alt="sonal thakkar" />
+                                                    </div>
+                                                    <div class="ti-profile-details">
+                                                        <div class="ti-name">sonal thakkar </div>
+                                                        <!-- <div class="ti-date">8 June 2023</div> -->
+                                                    </div>
+                                                </div>
+                                                <span class="ti-stars">
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                </span>
+                                                <div class="ti-review-content">
+                                                    <!-- R-CONTENT -->
+                                                    I visited this hospital by my friend's recommendation and later, I
+                                                    thanked her because the treatment provided here is best mixed with
+                                                    care.
+                                                    Gynecologist Dr. Saniya gives best advice and treatment. I even took
+                                                    dental treatment here. Dental Surgeon Dr. Pranay is very skillful
+                                                    and
+                                                    his soft handling makes dental treatment painless.
+                                                    <!-- R-CONTENT -->
+                                                </div>
+                                                <span class="ti-read-more" data-container=".ti-review-content"
+                                                    data-collapse-text="Hide" data-open-text="Read more"></span>
+                                            </div>
+                                        </div>
+                                        <div data-empty="0" class="ti-review-item source-Google">
+                                            <div class="ti-inner">
+                                                <div class="ti-review-header">
+                                                    <div class="ti-profile-img">
+                                                        <img src="./images/review-2.png" alt="Abdulhaleem Maniar" />
+                                                    </div>
+                                                    <div class="ti-profile-details">
+                                                        <div class="ti-name">Abdulhaleem Maniar </div>
+                                                        <!-- <div class="ti-date">6 June 2023</div> -->
+                                                    </div>
+                                                </div>
+                                                <span class="ti-stars">
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                </span>
+                                                <div class="ti-review-content">
+                                                    <!-- R-CONTENT -->
+                                                    Dr. Saniya Thakkar !✨
+                                                    A gem of a person !💕
+                                                    Friend before a doctor !
+                                                    If u have a good doctor👩🏻‍⚕️ for your consultation,
+                                                    you have a less burden on your pocket and less stress on your mind !
+                                                    Do visit for any problem related to marraige life !👨‍👩‍👧‍👦
+                                                    Well maintained and perfectly organised hospital !🏥
+                                                    <!-- R-CONTENT -->
+                                                </div>
+                                                <span class="ti-read-more" data-container=".ti-review-content"
+                                                    data-collapse-text="Hide" data-open-text="Read more"></span>
+                                            </div>
+                                        </div>
+                                        <div data-empty="0" class="ti-review-item source-Google">
+                                            <div class="ti-inner">
+                                                <div class="ti-review-header">
+                                                    <div class="ti-profile-img">
+                                                        <img src="./images/review-3.png" alt="Sudhir Prajapati " />
+                                                    </div>
+                                                    <div class="ti-profile-details">
+                                                        <div class="ti-name">Sudhir Prajapati </div>
+                                                        <!-- <div class="ti-date">5 June 2023</div> -->
+                                                    </div>
+                                                </div>
+                                                <span class="ti-stars">
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                </span>
+                                                <div class="ti-review-content">
+                                                    <!-- R-CONTENT -->
+                                                    Before meeting with Dr. Saniya Thakkar, have consulted with few
+                                                    other
+                                                    gyne who are just professional with their patients however Dr.
+                                                    Saniya is
+                                                    ver very responsible Dr. I would say, she not only listen everyone
+                                                    very
+                                                    patiently n calmly and give personal touch to all..
+                                                    <!-- R-CONTENT -->
+                                                </div>
+                                                <span class="ti-read-more" data-container=".ti-review-content"
+                                                    data-collapse-text="Hide" data-open-text="Read more"></span>
+                                            </div>
+                                        </div>
+                                        <div data-empty="0" class="ti-review-item source-Google">
+                                            <div class="ti-inner">
+                                                <div class="ti-review-header">
+                                                    <div class="ti-profile-img">
+                                                        <img src="./images/review-4.png" alt="Bhavin Thakkar" />
+                                                    </div>
+                                                    <div class="ti-profile-details">
+                                                        <div class="ti-name">Bhavin Thakkar</div>
+                                                        <!-- <div class="ti-date">23 May 2023</div> -->
+                                                    </div>
+                                                </div>
+                                                <span class="ti-stars">
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                </span>
+                                                <div class="ti-review-content">
+                                                    <!-- R-CONTENT -->
+                                                    The only hospital which has separate entry for indoor and OPD which
+                                                    gives total relaxation to the indoor patients. Best services for
+                                                    both
+                                                    Dental & Gaynec giving you clear explanation of treatment.
+                                                    <!-- R-CONTENT -->
+                                                </div>
+                                                <span class="ti-read-more" data-container=".ti-review-content"
+                                                    data-collapse-text="Hide" data-open-text="Read more"></span>
+                                            </div>
+                                        </div>
+                                        <div data-empty="0" class="ti-review-item source-Google">
+                                            <div class="ti-inner">
+                                                <div class="ti-review-header">
+                                                    <div class="ti-profile-img">
+                                                        <img src="./images/review-5.png" alt=">munna kumar" />
+                                                    </div>
+                                                    <div class="ti-profile-details">
+                                                        <div class="ti-name">munna kumar </div>
+                                                        <!-- <div class="ti-date">18 May 2023</div> -->
+                                                    </div>
+                                                </div>
+                                                <span class="ti-stars">
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                    <span class="ti-star f"></span>
+                                                </span>
+                                                <div class="ti-review-content">
+                                                    <!-- R-CONTENT -->
+                                                    Well maintained,friendly and efficient nursing and support staff.
+                                                    very
+                                                    advanced hospital with the technology and also Dr saniya thakkar
+                                                    they
+                                                    take care of patients verygood…the entire staff reciveing and
+                                                    treating
+                                                    of the patients is very excellent…
+                                                    <!-- R-CONTENT -->
+                                                </div>
+                                                <span class="ti-read-more" data-container=".ti-review-content"
+                                                    data-collapse-text="Hide" data-open-text="Read more"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ti-controls-dots">
+                                        <div class="dot active"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="home10 my-6">
+            <div class="ab-container">
+                <div class="text-heading2 text-bold">Achievement
+                </div>
+            </div>
+            <div class="ab-container mt-4 three-column">
+                <div class="home10-item bg-white">
+                    <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/abpnews2.jpg" alt="">
+                    <div class="home10-content pd-flex-2">
+                        <p class="text-heading3 text-bold text-dark">Best gastro speciality hospital award
+                        </p>
+                        <p class="text-body mt-1">Our hospital is been awarded the best single supper speciality
+                            hospital by ABP HEALTHCARE LEADERSHIP AWARDS 2019
+                        </p>
+                    </div>
+                </div>
+                <div class="home10-item bg-white">
+                    <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/gujaratmitra1.jpg" alt="">
+                    <div class="home10-content pd-flex-2">
+                        <p class="text-heading3 text-bold text-dark">Best gastroenterologist award
+                        </p>
+                        <p class="text-body mt-1">One of our Doctor was awarded best gastroenterologist by Chief
+                            Minister of Gujarat Shri Vijay Rupani in Gujarat Mitra Health Conclave
+                        </p>
+                    </div>
+                </div>
+                <div class="home10-item bg-white">
+                    <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/ASIABOOK.jpg" alt="">
+                    <div class="home10-content pd-flex-2">
+                        <p class="text-heading3 text-bold text-dark">Asia book &India book of records
+                        </p>
+                        <p class="text-body mt-1">awarded by ASIA BOOK OF RECORDS in 2019 &India Book of Records for his
+                            surgeries of Gall Bladder Surgery &Foreign Body Removed from stomach
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+            <section>
+                <div class="form-main">
+                    <div class="main-wrapper">
+                        <h2 class="form-head">Contact From</h2>
+                        <form class="form-wrapper" onsubmit="return sendMail()">
+                            <div class="form-card">
+                                <input class="form-input" id="Name" type="text" name="full_name" required="required" />
+                                <label class="form-label" for="full_name">Full Name</label>
+                            </div>
+
+                            <div class="form-card">
+                                <input class="form-input" id="Sender" type="email" name="email" required="required" />
+                                <label class="form-label" for="email">Email</label>
+                            </div>
+
+                            <div class="form-card">
+                                <input class="form-input" id="Mobile" type="number" name="phone_number"
+                                    required="required" />
+                                <label class="form-label" for="phone_number">Phone number</label>
+                            </div>
+
+                            <div class="form-card">
+                                <textarea class="form-textarea" id="message" maxlength="420" rows="3" name="message"
+                                    required="required"></textarea>
+                                <label class="form-textarea-label" for="message">Message</label>
+                            </div>
+                            <div class="btn-wrap">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="pt-2">
+            <div class="ab-container three-column">
+                <div class="col1">
+                    <img src="./images/vraj-hospital-logo.png" alt="" class=" logo-footer">
+                </div>
+                <div class="col2">
+                    <p class="mt-2 mb-2 text-heading4 text-bold color-secondary">Social Media
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/vraj.hospital.althan?igshid=MmU2YjMzNjRlOQ==">
+                            <div class="item">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/instagram.svg"
+                                    alt="">
+                            </div>
+                        </a>
+                        <a href="https://www.facebook.com/vrajwomenscare/">
+                            <div class="item">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/facebook.svg"
+                                    alt="">
+                            </div>
+                        </a>
+                        <a href="">
+                            <div class="item">
+                                <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/youtube.svg"
+                                    alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col3">
+                    <p class="mt-2 mb-2 text-heading4 text-bold color-secondary">Contect Us
+                    </p>
+                    <div class="footer-info">
+                        <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/call.png" alt="">
+                        <p class="text-body"><a href="tel:6352828957" target="_blank"> +91 63528 28957 </a></p>
+                    </div>
+                    <div class="footer-info">
+                        <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/mail.png" alt="">
+                        <p class="text-body"><a href="mailto:" target="_blank"> help@vrajhospital.com </a></p>
+                    </div>
+                    <div class="footer-info">
+                        <img src="https://www.sidshospital.com/wp-content/themes/sids/assets/location.png" alt="">
+                        <p class="text-body">
+                            <a href="https://goo.gl/maps/hvQBdwLb2oewgEcp6" target="_blank"> Vraj Hospital 3rd floor,
+                                Pal
+                                Shopping opp.
+                                Dhiraj Sons Althan Surat, Gujarat 395017 India</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-3">
+            </div>
+            <div class="footer-bottom bg-secondary">
+                <div class="ab-container two-column">
+                    <p>© 2023 Vraj Hospital, All Rights Reserved.</p>
+                    <p>
+                        Designed by <a style="color: #387DFF;"
+                            href="https://gcsconsultant.com/digital-marketing-agency.html" target="_blank"> FITIT
+                            Official</a>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+
+
+        <script src="./js/sweetalert2.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="./js/sweetalert2.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+        <script src="./js/script.js"></script>
+        <script src="./js/loder.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script type="text/javascript">
+            (function () {
+                emailjs.init("i31cq5rHjY2VgRPrA");
+            })();
+        </script>
+        <script>
+            function sendMail() {
+                var name = document.getElementById("Name").value.trim();
+                var sender = document.getElementById("Sender").value.trim();
+                var mobile = document.getElementById("Mobile").value.trim();
+                var message = document.getElementById("message").value.trim();
+
+                if (!name || !sender || !mobile || !message) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Missing Information',
+                        text: 'Please fill in all the required fields.'
+                    });
+                    return false;
+                }
+
+                if (!isValidEmail(sender)) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Invalid Email Address',
+                        text: 'Please enter a valid email address.'
+                    });
+                    return false;
+                }
+
+                if (!isValidMobileNumber(mobile)) {
+                    Swal.fire({
+                        icon: 'error',
+                        title: 'Invalid Mobile Number',
+                        text: 'Please enter a valid mobile number.'
+                    });
+                    return false;
+                }
+
+                var params = {
+                    Name: name,
+                    Sender: sender,
+                    Mobile: mobile,
+                    message: message
+                };
+
+                const serviceID = "service_xh2ud0s";
+                const templateID = "template_9qhtz8x";
+
+                emailjs.send(serviceID, templateID, params)
+                    .then(function (response) {
+                        document.getElementById("Name").value = "";
+                        document.getElementById("Sender").value = "";
+                        document.getElementById("Mobile").value = "";
+                        document.getElementById("message").value = "";
+
+                        console.log("Email sent successfully", response.status, response.text);
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Thank You!',
+                            text: 'Your message has been sent successfully. We will contact you soon.'
+                        });
+                    })
+                    .catch(function (error) {
+                        console.error("Error sending email", error);
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Error Sending Email',
+                            text: 'There was an error sending your message. Please try again later.'
+                        });
+                    });
+
+                return false; // Prevent form submission (if using a form element)
+            }
+
+            function isValidEmail(email) {
+                // Basic email validation
+                var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailPattern.test(email);
+            }
+
+            function isValidMobileNumber(mobile) {
+                // Basic mobile number validation
+                var mobilePattern = /^\d{10}$/;
+                return mobilePattern.test(mobile);
+            }
+        </script>
+
+        <script>
+            function scrollToTop() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            }
+
+            function toggleBackToTopButton() {
+                const backToTopButton = document.querySelector(".back-to-top-btn");
+                if (window.scrollY > 300) {
+                    backToTopButton.classList.add("show");
+                } else {
+                    backToTopButton.classList.remove("show");
+                }
+            }
+
+
+            document.addEventListener('DOMContentLoaded', function () {
+                const backToTopButton = document.querySelector(".back-to-top-btn");
+                backToTopButton.addEventListener('click', scrollToTop);
+
+                window.addEventListener('scroll', toggleBackToTopButton);
+                toggleBackToTopButton();
+            });
+
+
+        </script>
+        <script>
+            // Smooth scroll function
+            function smoothScroll(target, duration) {
+                const targetElement = document.querySelector(target);
+                if (!targetElement) return;
+
+                const targetPosition = targetElement.getBoundingClientRect().top;
+                const startPosition = window.pageYOffset;
+                const distance = targetPosition - startPosition;
+                let startTime = null;
+
+                function animation(currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const progress = Math.min(timeElapsed / duration, 1);
+                    const easing = progress => progress < 0.5 ? 4 * progress ** 3 : (progress - 1) * (2 * progress - 2) * (2 * progress - 2) + 1; // EaseInOutCubic
+
+                    window.scrollTo(0, startPosition + distance * easing(progress));
+
+                    if (timeElapsed < duration) {
+                        requestAnimationFrame(animation);
+                    }
+                }
+
+                requestAnimationFrame(animation);
+            }
+
+            // Add event listeners to menu items
+            document.addEventListener('DOMContentLoaded', function () {
+                const menuItems = document.querySelectorAll('.ab-nav-menu a');
+
+                menuItems.forEach(item => {
+                    item.addEventListener('click', function (event) {
+                        event.preventDefault();
+                        const target = item.getAttribute('href');
+                        const duration = 1000; // Duration in milliseconds for the scroll animation
+                        smoothScroll(target, duration);
+                    });
+                });
+            });
+
+        </script>
+    </body>
+</main>
+
+</html>
