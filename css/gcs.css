@@ -2004,6 +2004,8 @@ section {
 .svs-item .svs-item-img {
   aspect-ratio: 4/3;
   object-fit: cover;
+  border-radius: 19px 19px 0px 0px;
+  overflow: hidden;
 }
 
 .svs-item .content {
@@ -2013,6 +2015,7 @@ section {
   background-color: #ffffff20;
   backdrop-filter: blur(8px);
   position: relative;
+  border-radius: 0px 0px 19px 19px;
 }
 
 .svs-item .content:hover {
@@ -3565,4 +3568,11 @@ img.emoji {
   border: 1px solid #000;
   background: transparent;
 
+}
+
+
+.svs-item .svs-item-img:hover {
+  filter: brightness(2);
+  transition: 0.8s;
+  overflow: hidden;
 }
