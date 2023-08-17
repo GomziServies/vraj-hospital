@@ -18,31 +18,7 @@ for (let i in dropdownbtn) {
     })
 }
 
-var header = document.getElementById("ab-header");
-var lastScroll = 0;
-var threshold = 300;
 
-window.addEventListener("scroll", () => {
-    const currentScroll = window.pageYOffset;
-
-    if (currentScroll <= threshold) {
-        header.classList.remove("scroll-up");
-        header.classList.remove("scroll-down");
-    }
-
-    if (currentScroll > lastScroll && currentScroll >= threshold) {
-        header.classList.remove("scroll-up");
-        header.classList.add("scroll-down");
-        console.log("niche");
-    }
-
-    if (currentScroll < lastScroll && currentScroll >= threshold) {
-        header.classList.add("scroll-up");
-        console.log("uper");
-    }
-
-    lastScroll = currentScroll;
-});
 
 
 
@@ -68,7 +44,7 @@ class LiteYTEmbed extends HTMLElement {
          * TODO: Consider using webp if supported, falling back to jpg
          */
         if (!this.style.backgroundImage) {
-          this.style.backgroundImage = `url("https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg")`;
+            this.style.backgroundImage = `url("https://i.ytimg.com/vi/${this.videoId}/hqdefault.jpg")`;
         }
 
         // Set up play button, and its visually hidden label
@@ -86,7 +62,7 @@ class LiteYTEmbed extends HTMLElement {
         }
 
         // On hover (or tap), warm up the TCP connections we're (likely) about to use.
-        this.addEventListener('pointerover', LiteYTEmbed.warmConnections, {once: true});
+        this.addEventListener('pointerover', LiteYTEmbed.warmConnections, { once: true });
 
         // Once the user clicks, add the real iframe and drop our play button
         // TODO: In the future we could be like amp-youtube and silently swap in the iframe during idle time
@@ -182,94 +158,94 @@ customElements.define('lite-youtube', LiteYTEmbed);
 
 // Glide Instances --------
 
-        const vals = {
-            type: 'carousel',
-            perView:1,
-            startAt: 0,
-            gap: 0,
-            autoplay: 3000,
-            hoverpause: false,
-            bound: true,
-            animationDuration: 1200,
-            rewind: false,
-            swipeThreshold: 30,
-            breakpoints: {
-                1000: {
-                    perView: 1
-                },
-                700: {
-                    perView: 1
-                }
-            }
-
+const vals = {
+    type: 'carousel',
+    perView: 1,
+    startAt: 0,
+    gap: 0,
+    autoplay: 3000,
+    hoverpause: false,
+    bound: true,
+    animationDuration: 1200,
+    rewind: false,
+    swipeThreshold: 30,
+    breakpoints: {
+        1000: {
+            perView: 1
+        },
+        700: {
+            perView: 1
         }
-        new Glide('.glide', vals).mount({})
+    }
 
-        const vals2 = {
-            type: 'carousel',
-            perView:3,
-            startAt: 0,
-            gap: 32,
-            autoplay: 2400,
-            hoverpause: false,
-            bound: true,
-            animationDuration: 1200,
-            rewind: false,
-            swipeThreshold: 30,
-            breakpoints: {
-                1000: {
-                    perView: 1.2
-                },
-                700: {
-                    perView: 1
-                }
-            }
+}
+new Glide('.glide', vals).mount({})
 
+const vals2 = {
+    type: 'carousel',
+    perView: 3,
+    startAt: 0,
+    gap: 32,
+    autoplay: 2400,
+    hoverpause: false,
+    bound: true,
+    animationDuration: 1200,
+    rewind: false,
+    swipeThreshold: 30,
+    breakpoints: {
+        1000: {
+            perView: 1.2
+        },
+        700: {
+            perView: 1
         }
-        new Glide('.glide2', vals2).mount({})
+    }
 
-        const vals3 = {
-            type: 'carousel',
-            perView:2,
-            startAt: 0,
-            gap: 32,
-            autoplay: 2200,
-            hoverpause: false,
-            bound: true,
-            animationDuration: 1200,
-            rewind: false,
-            swipeThreshold: 30,
-            breakpoints: {
-                1000: {
-                    perView: 1
-                },
-                700: {
-                    perView: 1
-                }
-            }
+}
+new Glide('.glide2', vals2).mount({})
 
+const vals3 = {
+    type: 'carousel',
+    perView: 2,
+    startAt: 0,
+    gap: 32,
+    autoplay: 2200,
+    hoverpause: false,
+    bound: true,
+    animationDuration: 1200,
+    rewind: false,
+    swipeThreshold: 30,
+    breakpoints: {
+        1000: {
+            perView: 1
+        },
+        700: {
+            perView: 1
         }
-        new Glide('.glide3', vals3).mount({})
+    }
 
-        const vals4 = {
-            type: 'carousel',
-            perView:2,
-            startAt:1,
-            gap: 32,
-            autoplay: 2200,
-            hoverpause: false,
-            bound: true,
-            animationDuration: 1200,
-            rewind: false,
-            swipeThreshold: 30,
-            breakpoints: {
-                1000: {
-                    perView: 1
-                },
-                700: {
-                    perView: 1
-                }
-            }
+}
+new Glide('.glide3', vals3).mount({})
 
+const vals4 = {
+    type: 'carousel',
+    perView: 2,
+    startAt: 1,
+    gap: 32,
+    autoplay: 2200,
+    hoverpause: false,
+    bound: true,
+    animationDuration: 1200,
+    rewind: false,
+    swipeThreshold: 30,
+    breakpoints: {
+        1000: {
+            perView: 1
+        },
+        700: {
+            perView: 1
         }
-        new Glide('.glide4', vals4).mount({})
+    }
+
+}
+new Glide('.glide4', vals4).mount({})

@@ -9,7 +9,7 @@
   --secondary: #36415c;
   --tertiary: #387DFF;
   --body: #FFF9F0;
-  --txtDark: #353535;
+  --txtDark: #000;
   --txtLight: #616161;
   --txtWhite: #ffffff;
   --txtWhiteLight: #ffffffe5;
@@ -3575,4 +3575,29 @@ img.emoji {
   filter: brightness(2);
   transition: 0.8s;
   overflow: hidden;
+}
+
+.bar {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding: 4px 0;
+  background-color: #e74c3c;
+  color: white;
+  font-family: Gelasio;
+  font-size: 15px;
+}
+
+.bar_content {
+  display: inline-block;
+  width: 100%;
+  transform: translateX(100%);
+  animation: move 40s linear infinite ;
+  white-space: nowrap;
+}
+
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
 }
