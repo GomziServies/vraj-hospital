@@ -407,7 +407,7 @@
   };
   var getCloseButton = function getCloseButton() {
     return elementByClass(swalClasses.close);
-  }; // https://github.com/jkup/focusable/blob/master/index.js
+  }; // https://github.com/jkup/focusable/blob/master/index.html.js
 
   var focusable = "\n  a[href],\n  area[href],\n  input:not([disabled]),\n  select:not([disabled]),\n  textarea:not([disabled]),\n  button:not([disabled]),\n  iframe,\n  object,\n  embed,\n  [tabindex=\"0\"],\n  [contenteditable],\n  audio[controls],\n  video[controls],\n  summary\n";
   var getFocusableElements = function getFocusableElements() {

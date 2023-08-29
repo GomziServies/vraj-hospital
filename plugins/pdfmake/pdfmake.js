@@ -12399,7 +12399,7 @@ var bomHandling = __webpack_require__(395),
     iconv = module.exports;
 
 // All codecs and aliases are kept here, keyed by encoding name/alias.
-// They are lazy loaded in `iconv.getCodec` from `encodings/index.js`.
+// They are lazy loaded in `iconv.getCodec` from `encodings/index.html.js`.
 iconv.encodings = null;
 
 // Characters emitted in case of error.
@@ -17310,7 +17310,7 @@ util.inherits(Unzip, Zlib);
 
 var objectAssign = __webpack_require__(357);
 
-// compare and isBuffer taken from https://github.com/feross/buffer/blob/680e9e5e488f22aac27599a57dc844a6315928dd/index.js
+// compare and isBuffer taken from https://github.com/feross/buffer/blob/680e9e5e488f22aac27599a57dc844a6315928dd/index.html.js
 // original notice:
 
 /*!
